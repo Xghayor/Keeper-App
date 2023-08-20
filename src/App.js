@@ -3,12 +3,17 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Notes from './components/Notes'
+import notes from './notes'
+
+const createNotes = (note) => (
+  <Notes key={note.id} title={note.title} content={note.content} />
+);
 
 const App = () => {
   return (
    <div>
       <Header />
-      <Notes />
+      {notes.map(createNotes)}
       <Footer />
    </div>
   );
