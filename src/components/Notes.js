@@ -1,14 +1,16 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
+const Notes = ({ title, content }) => (
+  <div className="note">
+    <h1>{title}</h1>
+    <p>{content}</p>
+  </div>
+);
 
-const Notes = (props) => {
-    return (
-        <div    className="note">
-            <h1>{props.title}</h1>
-            <p>{props.content}</p>
-        </div>
-    )
-}
-
+Notes.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+};
 
 export default Notes;
