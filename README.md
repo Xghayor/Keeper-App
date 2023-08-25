@@ -1,8 +1,12 @@
 # Keeper App - Your Personal Note-Taking and Task Management Solution
 
-![Keeper App Banner]()
+- Designed with simplicity and functionality in mind, Keeper App aims to enhance your productivity and keep you organized.
 
-Welcome to Keeper App, your all-in-one note-taking and task management solution! With Keeper App, you can effortlessly capture your thoughts, ideas, to-do lists, and more, all in one organized place. Designed with simplicity and functionality in mind, Keeper App aims to enhance your productivity and keep you organized.
+
+## Live Demo
+
+Check out the live demo of Keeper App [here]( https://xghayor.github.io/Keeper-App).
+
 
 ## Features
 
@@ -36,11 +40,6 @@ Access your notes and tasks from anywhere, on any device. With cloud synchroniza
 2. Navigate to the project directory: `cd keeper-app`
 3. Install dependencies: `npm install`
 4. Start the app: `npm start`
-
-## Live Demo
-
-Check out the live demo of Keeper App [here](https://yourusername.github.io/keeper-app-demo).
-
 
 ## Contributing
 
